@@ -5,7 +5,7 @@ Simple node wrapper that runs esbuild on TS files
 ## Install
 
 ```shell
-yarn global add @nabla/tnode
+yarn add @nabla/tnode
 ```
 
 ## Usage in package.json scripts 
@@ -18,14 +18,6 @@ yarn global add @nabla/tnode
 }
 ```
 
-## Usage in independent scripts
-
-```ts
-#!/usr/bin/env tnode
-
-console.log("It just works!")
-```
-
 ## Usage with Jest
 
 Add in `package.json`
@@ -35,8 +27,20 @@ Add in `package.json`
   "jest": {
     "rootDir": "src",
     "transform": {
-      "\\.ts": " tjest"
+      "\\.ts": "@nabla/tnode/jest"
     }
   }
 }
+```
+
+## Usage in independent scripts
+
+```shell
+yarn global add @nabla/tnode
+```
+
+```ts
+#!/usr/bin/env tnode
+
+console.log("It just works!")
 ```
