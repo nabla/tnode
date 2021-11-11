@@ -1,0 +1,23 @@
+{
+  "name": "@nabla/tnode",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Simple node wrapper that runs esbuild on TS files",
+  "homepage": "https://github.com/nabla/tnode#readme",
+  "author": "arnaud@nabla.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabla/tnode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nabla/tnode/issues"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "esbuild"
+  ],
+  "dependencies": {
+    "esbuild": "0.12.8"
+  }
+}
