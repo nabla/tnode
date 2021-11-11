@@ -1,6 +1,6 @@
 {
   "name": "@nabla/tnode",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "description": "Simple node wrapper that runs esbuild on TS files",
   "homepage": "https://github.com/nabla/tnode#readme",
@@ -13,7 +13,8 @@
     "url": "https://github.com/nabla/tnode/issues"
   },
   "bin": {
-    "tnode": "tnode.js"
+    "tnode": "tnode.js",
+    "tjest": "tjest.js"
   },
   "keywords": [
     "node",

@@ -35,7 +35,7 @@ Add in `package.json`
   "jest": {
     "rootDir": "src",
     "transform": {
-      "\\.ts": " tnode-jest"
+      "\\.ts": " tjest"
     }
   }
 }
