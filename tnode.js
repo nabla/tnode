@@ -3,7 +3,7 @@ const fs = require("fs");
 const Module = require("module");
 const { resolve } = require("path");
 
-const transform = require("../transform");
+const transform = require("./transform");
 
 Module._extensions[".ts"] = (mod, filename) => {
   mod._compile(

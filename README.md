@@ -5,7 +5,7 @@ Simple node wrapper that runs esbuild on TS files
 ## Install
 
 ```shell
-yarn install -g @nabla/tnode
+yarn global add @nabla/tnode
 ```
 
 ## Usage in package.json scripts 
