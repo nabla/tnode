@@ -1,4 +1,4 @@
-# tnode
+# tnode [![npm](https://img.shields.io/npm/v/@nabla/tnode)](https://www.npmjs.com/package/@nabla/tnode)
 
 Simple node wrapper that runs esbuild on TS files
 
