@@ -5,10 +5,10 @@ Simple node wrapper that runs esbuild on TS files
 ## Install
 
 ```shell
-yarn add @nabla/tnode
+npm i -D @nabla/tnode
 ```
 
-## Usage in package.json scripts 
+## Usage in package.json scripts
 
 ```json
 {
@@ -36,11 +36,11 @@ Add in `package.json`
 ## Usage in independent scripts
 
 ```shell
-yarn global add @nabla/tnode
+npm i -g @nabla/tnode
 ```
 
 ```ts
 #!/usr/bin/env tnode
 
-console.log("It just works!")
+console.log("It just works!");
 ```

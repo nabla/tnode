@@ -1,26 +1,28 @@
 {
   "name": "@nabla/tnode",
-  "version": "0.5.0",
-  "license": "MIT",
   "description": "Simple node wrapper that runs esbuild on TS files",
-  "homepage": "https://github.com/nabla/tnode#readme",
-  "author": "arnaud@nabla.com",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nabla/tnode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nabla/tnode/issues"
-  },
+  "version": "0.6.0",
+  "license": "MIT",
+  "author": "Arnaud Barré (https://github.com/ArnaudBarre)",
   "bin": {
     "tnode": "tnode.js"
   },
+  "files": [
+    "*.js"
+  ],
+  "repository": "github:nabla/tnode",
   "keywords": [
     "node",
     "typescript",
     "esbuild"
   ],
+  "scripts": {
+    "prettier": "prettier --write '**/*.{js,json,md,yml}'"
+  },
   "dependencies": {
-    "esbuild": "^0.13.13"
+    "esbuild": "^0.14.18"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
