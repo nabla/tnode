@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0
+
+- Bump esbuild to `0.16`
+- 
 ## 0.7.0
 
 - Bump esbuild to `0.15`
