@@ -1,12 +1,16 @@
 # tnode [![npm](https://img.shields.io/npm/v/@nabla/tnode)](https://www.npmjs.com/package/@nabla/tnode)
 
-Simple node wrapper that runs esbuild on TS files
+Simple node wrapper that runs esbuild on TS files.
 
 ## Install
 
 ```shell
 npm i -D @nabla/tnode
 ```
+
+- For `esbuild@0.17` use `@nabla/tnode@0.9` (latest)
+- For `esbuild@0.16` use `@nabla/tnode@0.8`
+- For `esbuild@0.15` use `@nabla/tnode@0.7`
 
 ## Usage in package.json scripts
 
